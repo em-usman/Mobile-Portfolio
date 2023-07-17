@@ -1,0 +1,70 @@
+@media (width <= 768px) {
+  body {
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+.logo {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-size: 23px;
+  line-height: 20px;
+  font-weight: 700;
+  padding-left: 18px;
+  color: #6070ff;
+}
+
+.button {
+  padding-right: 18px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+  box-sizing: content-box;
+}
+
+.hero {
+  background-image: url("img/bd.svg");
+  background-repeat: no-repeat;
+  text-align: left;
+  padding-top: 60px;
+  padding-left: 18px;
+  padding-right: 8px;
+  padding-right: 18px;
+}
+
+.greeting {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  color: #172b4d;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 52px;
+}
+
+.info {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  color: #344563;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.com {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #7f8cff;
+  list-style-type: none;
+}
+
+.social-media-links {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-start;
+  list-style-type: none;
+  padding-left: 0;
+}
