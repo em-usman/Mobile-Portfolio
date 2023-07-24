@@ -262,46 +262,35 @@ header {
 
 .third {
   justify-content: space-between;
-  padding-right: 40px;
+  padding-right: 55px;
   display: flex;
   list-style-type: none;
   padding-top: 35px;
-  padding-left: 30px;
-  padding-bottom: 10px;
+  padding-bottom: -10px;
+  margin-bottom: 50px;
 }
 
 .frame {
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
-  font-size: 18px;
-  font-weight: 400;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 .fourth {
   justify-content: space-between;
-  padding-right: 40px;
+  padding-right: 55px;
   display: flex;
   list-style-type: none;
-  padding-left: 30px;
   padding-top: 10px;
+  margin-top: 40px;
+  margin-bottom: 1px;
 }
 
 .skill {
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 600;
   padding-bottom: 50px;
-}
-
-.border {
-  border-bottom: 1px solid #7a869a;
-  width: 300px;
-  margin: auto;
-}
-
-.borders {
-  border-bottom: 1px solid #7a869a;
-  width: 300px;
-  margin: auto;
 }
 
 .lang {
@@ -314,4 +303,15 @@ header {
   font-size: 15px;
   padding-bottom: 15px;
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+hr {
+  background-color: #dfe1e6;
+  width: 327px;
+}
+
+.h {
+  background-color: #dfe1e6;
+  width: 327px;
+  margin-bottom: 5px;
 }
