@@ -315,14 +315,15 @@ hr {
 }
 
 .y {
-  color: #ffffff;
-  font-family: 'Poopins',Arial, Helvetica, sans-serif;
+  color: #fff;
+  font-family: 'Poopins', Arial, Helvetica, sans-serif;
   font-weight: 700;
   text-align: center;
   font-size: 40px;
   line-height: 52px;
   padding-top: 80px;
 }
+
 .n {
   font-family: 'Poopins', Arial, Helvetica, sans-serif;
   font-weight: 400;
@@ -337,7 +338,7 @@ hr {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  background-color:#6070FF ;
+  background-color: #6070ff;
   border-top-left-radius: 80px;
   background-image: url(img/contact\ form\ shapes-mobile.svg);
   background-repeat: no-repeat;
@@ -352,8 +353,6 @@ hr {
   border-style: none;
   margin-bottom: 20px;
   margin-left: 12px;
- 
-  
 }
 
 #email {
@@ -374,22 +373,22 @@ hr {
   margin-left: 12px;
 }
 
- input::placeholder {
+input::placeholder {
   font-family: 'Poppins', sans-serif;
 }
 
 .btn {
-height: 6vh;
-width: 90px;
-border-radius: 9px;
-display: block;
-border-style: none;
-margin-left: 12px;
-color: #2230df;
+  height: 6vh;
+  width: 90px;
+  border-radius: 9px;
+  display: block;
+  border-style: none;
+  margin-left: 12px;
+  color: #2230df;
 }
 
 .btn:hover {
-  background-color: #6070FF;
+  background-color: #6070ff;
   cursor: pointer;
   color: #fff;
 }
