@@ -10,8 +10,9 @@
 
 body {
   background-color: #e5e5e5;
-  padding: 0;
   margin: 0;
+  font-family: 'Poppins',Arial, Helvetica, sans-serif;
+
 }
 
 .port {
@@ -20,7 +21,6 @@ body {
 }
 
 .logo {
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-size: 23px;
   line-height: 20px;
   font-weight: 700;
@@ -42,6 +42,7 @@ header {
 .hero {
   background-image: url("img/bd.svg");
   background-repeat: no-repeat;
+  background-size: 100%;
   text-align: left;
   padding-top: 60px;
   padding-left: 18px;
@@ -49,8 +50,7 @@ header {
 }
 
 .greeting {
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
-  color: #172b4d;
+   color: #172b4d;
   font-weight: 700;
   font-size: 55px;
   line-height: 52px;
@@ -58,7 +58,6 @@ header {
 }
 
 .info {
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   color: #344563;
   font-size: 20px;
   line-height: 24px;
@@ -68,7 +67,6 @@ header {
 }
 
 .com {
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
@@ -159,7 +157,6 @@ header {
 }
 
 .title {
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 25px;
@@ -176,7 +173,6 @@ header {
 
 .canapy {
   color: #344563;
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-weight: 600;
   font-style: normal;
   font-size: 13px;
@@ -185,7 +181,6 @@ header {
 
 .back {
   color: #7a869a;
-  font-family: 'Poppin', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -198,12 +193,10 @@ header {
   line-height: 22px;
   font-weight: 400;
   font-style: normal;
-  font-family: 'Poopin', Arial, Helvetica, sans-serif;
 }
 
 .languages {
   display: flex;
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -225,7 +218,6 @@ header {
   border-radius: 10px;
   background-color: #f7f7f9;
   color: #396df2;
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -248,7 +240,6 @@ header {
   border: 1px solid #6070ff;
   border-radius: 8px;
   color: #396df2;
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -273,7 +264,6 @@ header {
 }
 
 .myself {
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-weight: 700;
   font-size: 30px;
   line-height: 15px;
@@ -286,7 +276,6 @@ header {
 .job-description {
   padding-left: 20px;
   padding-right: 20px;
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 16px;
   color: #344563;
@@ -296,8 +285,6 @@ header {
 .connect {
   padding-left: 20px;
   padding-right: 20px;
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
-  font-size: 16px;
   font-weight: 500;
   line-height: 0px;
   color: #7f8cff;
@@ -322,7 +309,6 @@ header {
 }
 
 .first {
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-weight: 600;
   font-size: 22px;
 }
@@ -347,7 +333,6 @@ header {
 }
 
 .frame {
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: 600;
 }
@@ -363,7 +348,6 @@ header {
 }
 
 .skill {
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-size: 18px;
   font-weight: 600;
   padding-bottom: 50px;
@@ -378,7 +362,6 @@ header {
   font-weight: 550px;
   font-size: 15px;
   padding-bottom: 15px;
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
 }
 
 hr {
@@ -399,7 +382,7 @@ hr {
   border-top-left-radius: 80px;
   background-image: url(img/contact\ form\ shapes-mobile.svg);
   background-repeat: no-repeat;
-  background-position: 153px 32px;
+  background-size: 100%;
   margin-top: 50px;
 }
 
@@ -412,15 +395,13 @@ hr {
 
 .contact-me {
   color: #fff;
-  font-family: 'Poopins', Arial, Helvetica, sans-serif;
   font-weight: 700;
   text-align: center;
   font-size: 40px;
-  padding-top: 40px;
+  padding-top: 60px;
 }
 
 .application {
-  font-family: 'Poopins', Arial, Helvetica, sans-serif;
   font-weight: 400;
   line-height: 28px;
   text-align: center;
@@ -445,7 +426,6 @@ input {
 }
 
 input::placeholder {
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-weight: 400;
   color: #172b4d;
   font-size: 17px;
@@ -467,7 +447,6 @@ textarea {
 
 textarea::placeholder {
   color: #bab3c5;
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 17px;
 }
@@ -501,11 +480,6 @@ button {
 }
 
 @media (min-width: 768px) {
-  body {
-    margin: 0;
-    padding: 0;
-  }
-
   .button {
     display: none;
   }
@@ -533,7 +507,6 @@ button {
   }
 
   .logo {
-    font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-size: 18px;
     line-height: 20px;
     font-weight: 700;
@@ -550,13 +523,11 @@ button {
     font-size: 15px;
     line-height: 20px;
     font-weight: 500;
-    font-family: 'Poppins', Arial, Helvetica, sans-serif;
     text-align: center;
     color: #344563;
   }
 
   .greet {
-    font-family: 'Poppins', Arial, Helvetica, sans-serif;
     color: #091e42;
     font-weight: 700;
     font-size: 48px;
@@ -567,7 +538,6 @@ button {
   }
 
   .info {
-    font-family: 'Poppins', Arial, Helvetica, sans-serif;
     color: #344563;
     font-size: 20px;
     line-height: 28px;
@@ -577,7 +547,6 @@ button {
   }
 
   .com {
-    font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
@@ -666,7 +635,6 @@ button {
   }
 
   .title {
-    font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -683,7 +651,6 @@ button {
 
   .canapy {
     color: #344563;
-    font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-weight: 500;
     font-style: normal;
     font-size: 18px;
@@ -692,7 +659,6 @@ button {
 
   .back {
     color: #6b778c;
-    font-family: 'Poppin', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -705,12 +671,10 @@ button {
     line-height: 24px;
     font-weight: 400;
     font-style: normal;
-    font-family: 'Poopin', Arial, Helvetica, sans-serif;
   }
 
   .languages {
     display: flex;
-    font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -732,7 +696,6 @@ button {
     border-radius: 10px;
     background-color: #f7f7f9;
     color: #396df2;
-    font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
@@ -767,7 +730,6 @@ button {
   }
 
   .myself {
-    font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
@@ -775,7 +737,6 @@ button {
   }
 
   .job-description {
-    font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 16px;
     color: #344563;
@@ -783,7 +744,6 @@ button {
   }
 
   .connect {
-    font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
@@ -800,7 +760,6 @@ button {
     border: 1px solid #6070ff;
     border-radius: 8px;
     color: #396df2;
-    font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
@@ -832,7 +791,6 @@ button {
   }
 
   .first {
-    font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-weight: 500;
     font-size: 20px;
     color: #344563;
@@ -861,7 +819,6 @@ button {
 
   .lang p {
     margin-top: 8px;
-    font-family: 'Poopins', Arial, Helvetica, sans-serif;
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
@@ -898,7 +855,6 @@ button {
 
   .contact-me {
     color: #fff;
-    font-family: 'Poopins', Arial, Helvetica, sans-serif;
     font-weight: 700;
     text-align: center;
     justify-content: center;
@@ -908,7 +864,6 @@ button {
   }
 
   .application {
-    font-family: 'Poopins', Arial, Helvetica, sans-serif;
     font-weight: 400;
     line-height: 28px;
     text-align: center;
@@ -936,7 +891,6 @@ button {
   }
 
   input::placeholder {
-    font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-weight: 400;
     color: #172b4d;
     font-size: 20px;
@@ -957,7 +911,6 @@ button {
 
   textarea::placeholder {
     color: #bab3c5;
-    font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 18px;
   }
